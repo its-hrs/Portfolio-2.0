@@ -1,0 +1,214 @@
+/* -------------------Responsiveness---------------------- */
+@media (max-width:1200px){
+    /* NavBar Starts */
+    .logoText{
+      font-size: 16px;
+      margin-left: 0.1em;
+    }
+  
+    header .logo img {
+      width: 50px;
+      filter: invert(1);
+      z-index: -1;
+    }
+  
+    nav ul {
+      display: flex;
+      margin-right: 1.5em;
+      padding: 0 4em;
+      gap: 1rem;
+    }
+  
+    nav ul li a {
+      font-size: 17px;
+    }
+    /* Navbar Ends */
+  
+  
+  /* Hero Section Starts */
+  
+    .heroSection {
+      gap: 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .infoContainer{
+      align-items: center;
+    }
+  
+    .subHeading {
+      font-size: 30px;
+      line-height: 35px;
+    }
+    
+    .desc {
+      font-size: 14px;
+      width: 60%;
+    }
+    
+    .fadedText {
+      font-size: 3em;
+      color: #e7e7e7;
+      bottom: -8%;
+      left: 2%;
+      font-weight: bold;
+    }
+    /* Hero Section Ends */
+  
+    /* Projects Section Start */
+    .projectCard{
+      width: 75%;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .projectContainer {
+      padding: 5px;
+      margin: 10px;
+      gap: 60px;
+    }
+  
+    .projectContent{
+      scale:0.5;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+  
+    .projectTitle{
+      font-size: 45px;
+    }
+  
+    .leftProjectContent{
+      left: -23%;
+    }
+  
+    .rightProjectContent {
+      right: -30%;
+    }
+  
+    .projectHeading{
+      font-size: 40px;
+      width: 100%;
+    }
+  
+    .projectSubHeading{
+      width: 100%;
+    }
+  
+    .projectSkillsContainer{
+      width:100%;
+    }
+  
+    .projectSkill{
+      width: 35px;
+    }
+  
+    .projectCard:hover .projectContent{
+      scale: 0.55;
+    }
+  
+    .projectNumber {
+      position: absolute;
+      font-size: 90px;
+      font-weight: 600;
+    }
+      /* Projects Section Ends */
+
+      .skillFadedText {
+        bottom: -23%;
+        z-index: -2;
+        font-size: 10em;
+      }
+
+  
+  }
+  
+  /* For Phones */
+  @media (max-width: 600px){
+    header{
+      padding: 8px 0px;
+    }
+  
+    nav ul{
+        padding: 0 1.2em;
+    }
+    .projectHeading {
+      font-size: 25px;
+    }
+  
+    .projectSkillsContainer {
+      max-width: 100%;
+    }
+  
+    .btn {
+      padding: 0.6rem 0.7rem;
+      font-size: 13px;
+    }
+  
+    .role{
+      font-size: 25px;
+    }
+
+    .skillContainer {
+        padding: 1.5rem;
+        flex-direction: column;
+        margin: 7rem auto;
+        gap: 25px
+    }
+
+    .leftSkillContainer {
+        width: 110%;
+    }
+
+    .skillHeading {
+        font-size: 40px;
+    }
+
+    .rightSkillContainer {
+        width: 100%;
+    }
+
+    /* Contact Me Section */
+    .container h2 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    
+    .container h3 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .skillFadedText {
+        font-size: 6em;
+        right: 2%;
+        bottom: -10%;
+    }
+
+    .formBtn .btn {
+        margin: 1rem 0.6rem;
+    }
+
+    .footerContainer{
+        flex-direction: column;
+    }
+
+    .footerFadedText{
+        font-size: 3em;
+    }
+
+    .foot{
+        color: white;
+        text-align: center;
+        font-weight: 700;
+        margin: 10px 0;
+      }
+
+}
