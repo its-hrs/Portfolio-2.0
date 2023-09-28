@@ -153,6 +153,7 @@
 
     .fadedText {
         font-size: 2.4rem;
+        botttom: -6%;
     }
       
     .desc{
@@ -184,6 +185,10 @@
 
     .rightSkillContainer {
         width: 100%;
+    }
+
+    .blobStyle{
+        width: 90%;
     }
 
     /* Contact Me Section */
